@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
-import { applause, boo, gasp, tada, victory, wrong } from "./sounds";
+import {applause, boo, gasp, tada, victory, wrong } from "./sounds";
 
 const sounds = [applause, boo, gasp, tada, victory, wrong];
 
@@ -32,7 +32,7 @@ const App = () => {
           setSelectedSound(sound);
         }}
       >
-        {sound}
+        {sound.split("/")[3].split(".")[0]}
       </button>
     );
   });
