@@ -1,0 +1,6 @@
+export {default as applause} from './applause.mp3'
+export {default as boo} from './boo.mp3'
+export {default as gasp} from './gasp.mp3'
+export {default as tada} from './tada.mp3'
+export {default as victory} from './victory.mp3'
+export {default as wrong} from './wrong.mp3'
